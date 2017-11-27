@@ -65,6 +65,8 @@ namespace oos
             //tijdelijke opvulling
             aclist.Add(new ApplicationClass("XAMPP", "C:\\xampp\\xampp-control.exe", "xampp-control"));
             aclist.Add(new ApplicationClass("Notepad", "C:\\Windows\\System32\\notepad.exe", "notepad"));
+            aclist.Add(new ApplicationClass("Cmd", "C:\\Windows\\System32\\cmd.exe", "cmd"));
+            aclist.Add(new ApplicationClass("Control Panel", "C:\\Windows\\System32\\control.exe", "control"));
 
             //Toevoegen aan de tijdelijke listbox
             appListBox.Items.Clear();
